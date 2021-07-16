@@ -41,7 +41,7 @@ function Quiz(props){
     }
 
     const handleNextQuestion = () => {
-        if(currentQuestion === 3){
+        if(currentQuestion === 19){
             props.history.push({
                 pathname: "/end",
                 finalScore: {score}
